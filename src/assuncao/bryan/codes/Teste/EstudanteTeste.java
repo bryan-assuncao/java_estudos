@@ -4,7 +4,7 @@ import assuncao.bryan.codes.aulaclasses.dominio.Estudante;
 import assuncao.bryan.codes.aulaclasses.dominio.Estudante02;
 import assuncao.bryan.codes.aulaclasses.dominio.Professor;
 
-public class Testes {
+public class EstudanteTeste {
     public static void main(String[] args){
         Estudante estudante = new Estudante();
         Estudante02 estudante02 = new Estudante02();
