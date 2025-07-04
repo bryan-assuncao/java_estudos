@@ -1,4 +1,4 @@
-package assuncao.bryan.codes.aulaclasses.dominio;
+package assuncao.bryan.codes.classes.domain;
 
 public class StudentPrinter {
     public void print(Student student){

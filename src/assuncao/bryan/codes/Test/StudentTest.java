@@ -1,7 +1,7 @@
-package assuncao.bryan.codes.Teste;
+package assuncao.bryan.codes.Test;
 
-import assuncao.bryan.codes.aulaclasses.dominio.Student;
-import assuncao.bryan.codes.aulaclasses.dominio.StudentPrinter;
+import assuncao.bryan.codes.classes.domain.Student;
+import assuncao.bryan.codes.classes.domain.StudentPrinter;
 
 public class StudentTest {
     public static void main(String[] args){

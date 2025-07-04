@@ -1,6 +1,6 @@
-package assuncao.bryan.codes.Teste;
+package assuncao.bryan.codes.Test;
 
-import assuncao.bryan.codes.aulaclasses.dominio.Car;
+import assuncao.bryan.codes.classes.domain.Car;
 
 public class CarTest {
     public static void main(String[] args) {

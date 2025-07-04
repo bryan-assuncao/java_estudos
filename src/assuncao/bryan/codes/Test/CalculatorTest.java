@@ -1,6 +1,6 @@
-package assuncao.bryan.codes.Teste;
+package assuncao.bryan.codes.Test;
 
-import assuncao.bryan.codes.aulametodos.dominio.Calculator;
+import assuncao.bryan.codes.methods.dominio.Calculator;
 
 public class CalculatorTest {
     public static void main(String[] args){
