@@ -1,7 +1,7 @@
 package assuncao.bryan.codes.aulaclasses.dominio;
 
-public class Estudante {
+public class Student {
     public String name;
     public int age;
-    public char sex;
+    public char gender;
 }
