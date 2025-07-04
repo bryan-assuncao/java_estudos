@@ -12,11 +12,8 @@ public class CalculadoraTeste {
         System.out.println(calculadora.subtrair(7, 7));
         System.out.println(calculadora.multiplicar(7, 7));
         System.out.println(calculadora.dividir(7, 0));
-
-
     }
 
 }
-
 
 
