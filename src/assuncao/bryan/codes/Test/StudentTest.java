@@ -21,6 +21,11 @@ public class StudentTest {
         
         printer.print(student);
         printer.print(student02);
+
+        student.print();
+        student02.print();
+
+        student.justName();
         
 
 
