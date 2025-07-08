@@ -21,6 +21,25 @@ public class Calculator {
         }
         return x / y;
     }
+
+    public void SumArray(int[] numbers){
+        int sum = 0;
+        for(int num : numbers){
+            sum += num;
+        }
+        System.out.println(sum);
+    }
+
+    
+    public void SumVarArgs(int... numbers){
+        int sum = 0;
+        for(int num : numbers){
+            sum += num;
+        }
+        System.out.println(sum);
+    }
+
+
 }
 
 

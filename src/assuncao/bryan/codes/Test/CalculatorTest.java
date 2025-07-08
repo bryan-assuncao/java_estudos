@@ -10,6 +10,17 @@ public class CalculatorTest {
         System.out.println(calculator.subtract(7, 7));
         System.out.println(calculator.multiply(7, 7));
         System.out.println(calculator.divide(7, 0));
+        
+        System.out.println("----------------");
+
+
+        int[] list = {10, 20, 30, 40, 50};
+        calculator.SumArray(list);
+
+        System.out.println("----------------");
+        
+        calculator.SumVarArgs(list);
+        calculator.SumVarArgs(1, 2, 3, 4, 5);
     }
 
 }
