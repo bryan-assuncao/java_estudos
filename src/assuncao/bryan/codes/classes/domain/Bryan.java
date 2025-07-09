@@ -13,6 +13,7 @@ public class Bryan {
 
         System.out.println(this.surname);
         System.out.println(this.age);
+        if (stacks == null) return;
         for(String stack : this.stacks){
             System.out.println(stack);
         }
