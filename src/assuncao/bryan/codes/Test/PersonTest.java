@@ -12,6 +12,14 @@ public class PersonTest {
         System.out.println(person.getName());
         System.out.println(person.getAge());
 
+        System.out.println("----------");
+
+        String name = person.getName();
+        int age = person.getAge();
+
+        System.out.println(name);
+        System.out.println(age);
+
 
     }
 }
