@@ -1,42 +1,78 @@
-package assuncao.bryan.codes.classes.domain;
+    package assuncao.bryan.codes.classes.domain;
 
-public class Employee {
-    public String name;
-    public int age;
-    public double[] salaries;
+    public class Employee {
+        private String name;
+        private int age;
+        private double[] salaries;
+        private double total;
+        private double average;
 
 
-    public void printEmployee(){
-
-        System.out.println("Name: " + this.name);
-        System.out.println("Age: " + this.age);
-
-        if (salaries == null) return;
-
-        for(double salary : salaries){
-        System.out.println("Salary: " + salary);
+        public String getName() {
+            return name;
         }
 
-        totalAndAverangeSalary();
-
-    }
-
-    public void totalAndAverangeSalary(){
-        
-        if (salaries == null) return;
-
-        double total = 0;
-
-        for(double salary : salaries){
-        total += salary;
+        public void setName(String name) {
+            this.name = name;
         }
 
-        System.out.println("Total: " + total);
-        double averange = total / salaries.length;
-        System.out.println("Averange: " + averange);
-        
+        public int getAge() {
+            return age;
+        }
+
+        public void setAge(int age) {
+            this.age = age;
+        }
+
+        public double[] getSalaries() {
+            return salaries;
+        }
+
+        public void setSalaries(double[] salaries) {
+            this.salaries = salaries;
+        }
+
+        public double getTotal() {
+            return total;
+        }
+
+
+
+        public void printEmployee(){
+
+            System.out.println("Name: " + this.name);
+            System.out.println("Age: " + this.age);
+
+            if (salaries == null) return;
+
+            for(double salary : salaries){
+            System.out.println("Salary: " + salary);
+            }
+
+            totalAndAverageSalary();
+
+        }
+
+        public double getAverage() {
+            return average;
+        }
+
+
+        public void totalAndAverageSalary(){
+
+            if (salaries == null) return;
+
+            total = 0;
+            for(double salary : salaries){
+            total += salary;
+            }
+
+            System.out.println("Total: " + total);
+            average = total / salaries.length;
+            System.out.println("Average: " + average);
+
+        }
     }
-}
 
 
 

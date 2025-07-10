@@ -7,12 +7,7 @@ public class PersonTest {
         Person person = new Person();
 
         person.setName("Bryan");
-        person.setAge(12);
-
-        System.out.println(person.getName());
-        System.out.println(person.getAge());
-
-        System.out.println("----------");
+        person.setAge(24);
 
         String name = person.getName();
         int age = person.getAge();
@@ -20,6 +15,7 @@ public class PersonTest {
         System.out.println(name);
         System.out.println(age);
 
+        person.printPerson();
 
     }
 }

@@ -7,23 +7,23 @@ public class Person {
     public void setName(String name){
         this.name = name;
     }
+    public String getName(){return this.name;}
 
-    public  void setAge(int age){
+
+    public void setAge(int age){
         if (age < 0){
             System.out.println("Invalid age");
             return;
         }
         this.age = age;
     }
+    public int getAge(){return this.age;}
 
-    // just get the parameter ↓
 
-    public String getName(){
-        return this.name;
-    }
-
-    public int getAge(){
-        return this.age;
+    public void printPerson(){
+        System.out.println("--------");
+        System.out.println(this.name);
+        System.out.println(this.age);
     }
 }
 
