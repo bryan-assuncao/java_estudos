@@ -10,6 +10,7 @@ public class EmployeeTest {
         employee.setAge(24);
         employee.setSalaries(new double[]{1650, 400, 500});
 
+
         employee.printEmployee();
 
     }

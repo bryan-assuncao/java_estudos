@@ -1,4 +1,4 @@
-package assuncao.bryan.codes.methods.dominio;
+package assuncao.bryan.codes.methods.domain;
 
 public class Calculator {
 
