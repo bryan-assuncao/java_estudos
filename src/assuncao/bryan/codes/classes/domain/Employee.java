@@ -36,10 +36,6 @@
             this.salaries = salaries;
         }
 
-        public double getTotal() {
-            return total;
-        }
-
 
         public void printEmployee(){
 
@@ -54,6 +50,10 @@
 
             totalAndAverageSalary();
 
+        }
+
+        public double getTotal() {
+            return total;
         }
 
         public double getAverage() {
