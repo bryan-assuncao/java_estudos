@@ -8,10 +8,13 @@ public class VideoCardTest {
         VideoCard video2 = new VideoCard("RTX 4090", "NVIDIA");
         VideoCard video3 = new VideoCard("RX 7600", "AMD");
 
-        VideoCard.year= 300;
-
         video1.printVideoCard();
         video2.printVideoCard();
+
+        VideoCard.year = 2023;
+
         video3.printVideoCard();
     }
 }
+
+
