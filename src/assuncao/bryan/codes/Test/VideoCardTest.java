@@ -11,7 +11,7 @@ public class VideoCardTest {
         video1.printVideoCard();
         video2.printVideoCard();
 
-        VideoCard.year = 2023;
+        VideoCard.setYear(2023);
 
         video3.printVideoCard();
     }

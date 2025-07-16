@@ -2,7 +2,7 @@ package assuncao.bryan.codes.staticmodifier.domain;
 
 public class VideoCard {
     private String name;
-    public static int year = 2024;
+    private static int year = 2024;
     private String manufacturer;
 
     public VideoCard( String name, String manufacturer) {
@@ -15,6 +15,14 @@ public class VideoCard {
         System.out.println("Name: " + this.name);
         System.out.println("Year: " + VideoCard.year);
         System.out.println("Manufacturer: " + this.manufacturer);
+    }
+
+    public static int getYear() {
+        return year;
+    }
+
+    public static void setYear(int year) {
+        VideoCard.year = year;
     }
 
     public String getName() {
