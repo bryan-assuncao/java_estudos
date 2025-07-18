@@ -9,6 +9,10 @@ public class Village {
         this.ninja = ninja;
     }
 
+    public Village(String name) {
+        this.name = name;
+    }
+
     public void printVillage(){
         System.out.println(this.name);
         if(ninja == null) return;
