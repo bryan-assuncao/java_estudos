@@ -2,25 +2,32 @@ package assuncao.bryan.codes.association.domain;
 
 public class Master {
     private String name;
-    private String researchField;
+    private String Specialty;
     private Seminar[] seminars;
 
-    public Master(String name, String researchField) {
+    public Master(String name, String Specialty) {
         this.name = name;
-        this.researchField = researchField;
+        this.Specialty = Specialty;
     }
 
-    public Master(String name, String researchField, Seminar[] seminars) {
+    public Master(String name, String Specialty, Seminar[] seminars) {
         this.name = name;
-        this.researchField = researchField;
+        this.Specialty = Specialty;
         this.seminars = seminars;
     }
 
     public void printMaster(){
-        System.out.println(this.name);
-        System.out.println(this.researchField);
+        System.out.println("Master: " + this.name);
+        System.out.println("Specialty: " + this.Specialty);
+        if(seminars == null) return;
         for(Seminar semi : seminars){
-            System.out.println(semi.getTitle());
+            System.out.println("Seminar title: " + semi.getTitle());
+            System.out.println("Happening at: " + semi.getPlace().getAddress());
+            if (semi.getStudents() == null || semi.getStudents().length == 0) continue;
+            System.out.println("-- Students --");
+            for(Student learning : semi.getStudents()){
+                System.out.println("Student: " + learning.getName() + " " + learning.getAge() + " years old");
+            }
         }
     }
 
@@ -33,11 +40,11 @@ public class Master {
     }
 
     public String getResearchField() {
-        return researchField;
+        return Specialty;
     }
 
-    public void setResearchField(String researchField) {
-        this.researchField = researchField;
+    public void setResearchField(String Specialty) {
+        this.Specialty = Specialty;
     }
 
     public Seminar[] getSeminars() {

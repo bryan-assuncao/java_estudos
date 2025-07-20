@@ -9,8 +9,8 @@ public class AssosiationTest {
     public static void main(String[] args) {
         Place place = new Place("Konoha Village");
 
-        Student student1 = new Student("Sasuke", 24);
-        Student student2 = new Student("Naruto", 19);
+        Student student1 = new Student("Sasuke", 13);
+        Student student2 = new Student("Naruto", 13);
         Student[] students = {student1, student2};
 
         Seminar seminar1 = new Seminar("Get Stronger", students, place);
