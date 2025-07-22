@@ -8,25 +8,19 @@ public class HerencaTest01 {
     public static void main(String[] args) {
         Endereco endereco = new Endereco("Barão do Ladário", "92420-370");
 
-        Pessoa pessoa = new Pessoa();
+        Pessoa pessoa = new Pessoa("Maju", "000.000.000-00");
 
-        pessoa.setName("Bryan");
-        pessoa.setCpf("600.511.700-94");
         pessoa.setEndereco(endereco);
 
         pessoa.printPessoa();
 
         System.out.println("----------------------");
 
-        Funcionario funcionario = new Funcionario();
+        Funcionario funcionario = new Funcionario("Bryan", "000.000.000-00", 1650);
 
-        funcionario.setName("Maju");
-        funcionario.setCpf("018.299.600-53");
         funcionario.setEndereco(endereco);
-        funcionario.setSalario(2100);
 
         funcionario.printPessoa();
-
 
 
 
