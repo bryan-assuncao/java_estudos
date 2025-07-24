@@ -1,11 +1,13 @@
-package assuncao.bryan.codes.tipoprimitivo.domain;
+package assuncao.bryan.codes.associacao.domain;
 
-public class Car {
+public class City {
     private String name;
-    public static final int LIMIT_SPEED = 110;
-    public final Buyer BUYER = new Buyer();
 
-    public void printCar(){
+    public City(String name){
+        this.name = name;
+    }
+
+    public void printCity(){
         System.out.println(this.name);
     }
 
@@ -16,6 +18,4 @@ public class Car {
     public void setName(String name) {
         this.name = name;
     }
-
-
 }

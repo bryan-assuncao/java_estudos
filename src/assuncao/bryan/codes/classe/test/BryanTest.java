@@ -1,0 +1,23 @@
+package assuncao.bryan.codes.classe.test;
+
+import assuncao.bryan.codes.classe.domain.Bryan;
+
+public class BryanTest {
+    public static void main(String[] args) {
+        Bryan bryan = new Bryan();
+
+
+        bryan.printBryan("Djow", 24, "Java", "Python", "JavaScript", "C#");
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
