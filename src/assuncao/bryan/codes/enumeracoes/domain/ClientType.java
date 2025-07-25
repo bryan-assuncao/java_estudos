@@ -11,6 +11,7 @@ public enum ClientType {
         this.valor = valor;
         this.relatoryName = relatoryName;
     }
+        
 
     public int getValor() {
         return valor;
