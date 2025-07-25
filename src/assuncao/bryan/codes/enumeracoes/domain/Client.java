@@ -9,7 +9,7 @@ public class Client {
     public String toString() {
         return "Client{" +
                 "name='" + name + '\'' +
-                ", clientType=" + clientType.getNomeRelatorio() +
+                ", clientType=" + clientType.getRelatoryName() +
                 ", clientTypeInt=" + clientType.getValor() +
                 ", payment=" + payment +
                 '}';

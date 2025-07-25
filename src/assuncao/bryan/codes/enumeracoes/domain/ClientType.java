@@ -5,18 +5,18 @@ public enum ClientType {
     MEI(2, "Pessoa Jurídica");
 
     public final int valor;
-    public final String nomeRelatorio;
+    public final String relatoryName;
 
-    ClientType(int valor, String nomeRelatorio ) {
+    ClientType(int valor, String relatoryName ) {
         this.valor = valor;
-        this.nomeRelatorio = nomeRelatorio;
+        this.relatoryName = relatoryName;
     }
 
     public int getValor() {
         return valor;
     }
 
-    public String getNomeRelatorio() {
-        return nomeRelatorio;
+    public String getRelatoryName() {
+        return relatoryName;
     }
 }

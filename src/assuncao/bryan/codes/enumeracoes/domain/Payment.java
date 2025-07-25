@@ -1,13 +1,13 @@
 package assuncao.bryan.codes.enumeracoes.domain;
 
 public enum Payment {
-    CREDIT{
+    CREDIT {
         @Override
         public double calcularDesconto(double desconto) {
             return desconto * 0.05;
         }
     },
-    DEBIT{
+    DEBIT {
         @Override
         public double calcularDesconto(double desconto) {
             return desconto * 0.10;
