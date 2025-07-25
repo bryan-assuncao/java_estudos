@@ -2,22 +2,23 @@ package assuncao.bryan.codes.enumeracoes.domain;
 
 public class Client {
     private String name;
-    private ClientType clientType;
-    private Days days;
-
-    public Client(String name, ClientType clientType, Days days) {
-        this.name = name;
-        this.clientType = clientType;
-        this.days = days;
-    }
+    private final ClientType clientType;
+    private final Payment payment;
 
     @Override
     public String toString() {
         return "Client{" +
                 "name='" + name + '\'' +
-                ", clientType=" + clientType +
-                ", days=" + days +
+                ", clientType=" + clientType.getNomeRelatorio() +
+                ", clientTypeInt=" + clientType.getValor() +
+                ", payment=" + payment +
                 '}';
+    }
+
+    public Client(String name, ClientType clientType, Payment payment) {
+        this.name = name;
+        this.clientType = clientType;
+        this.payment = payment;
     }
 
     public String getName() {
@@ -32,15 +33,8 @@ public class Client {
         return clientType;
     }
 
-    public void setClientType(ClientType clientType) {
-        this.clientType = clientType;
+    public Payment getPayment() {
+        return payment;
     }
 
-    public Days getDays() {
-        return days;
-    }
-
-    public void setDays(Days days) {
-        this.days = days;
-    }
 }
