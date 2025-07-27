@@ -6,6 +6,11 @@ public class Developer extends Employee{
     }
 
     @Override
+    public void bonus() {
+        this.salary = this.salary + this.salary * 0.10;
+    }
+
+    @Override
     public String toString() {
         return "Developer{" +
                 "name='" + name + '\'' +
@@ -13,3 +18,4 @@ public class Developer extends Employee{
                 '}';
     }
 }
+

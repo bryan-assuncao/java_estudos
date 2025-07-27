@@ -6,7 +6,7 @@ import assuncao.bryan.codes.classesabstratas.domain.Developer;
 public class EmplyeeTest {
     public static void main(String[] args) {
 
-        Manager manager = new Manager("Nami", 8000);
+        Manager manager = new Manager("Nami", 4000);
         System.out.println(manager);
 
         Developer developer = new Developer("Zoro", 4000);
@@ -14,3 +14,4 @@ public class EmplyeeTest {
     }
 
 }
+

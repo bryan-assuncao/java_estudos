@@ -7,6 +7,10 @@ public class Manager extends Employee {
     }
 
     @Override
+    public void bonus() {
+    }
+
+    @Override
     public String toString() {
         return "Manager{" +
                 "name=" + name +
@@ -14,3 +18,4 @@ public class Manager extends Employee {
                 '}';
     }
 }
+
