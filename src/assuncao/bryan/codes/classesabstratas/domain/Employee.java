@@ -1,6 +1,6 @@
 package assuncao.bryan.codes.classesabstratas.domain;
 
-public abstract class Employee {
+public abstract class Employee  extends Person{
     protected String name;
     protected double salary;
 
@@ -11,6 +11,11 @@ public abstract class Employee {
     }
 
     public abstract void bonus();
+
+    @Override
+    public void print() {
+        System.out.println("Printing...");
+    }
 
     public String getName() {
         return name;
