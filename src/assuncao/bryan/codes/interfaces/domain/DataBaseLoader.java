@@ -1,4 +1,4 @@
-package assuncao.bryan.codes.interfacess.domain;
+package assuncao.bryan.codes.interfaces.domain;
 
 public class DataBaseLoader implements DataLoader, DataRemover{
     @Override

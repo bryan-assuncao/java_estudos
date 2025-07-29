@@ -1,8 +1,8 @@
-package assuncao.bryan.codes.interfacess.test;
+package assuncao.bryan.codes.interfaces.test;
 
-import assuncao.bryan.codes.interfacess.domain.DataBaseLoader;
-import assuncao.bryan.codes.interfacess.domain.DataLoader;
-import assuncao.bryan.codes.interfacess.domain.FileLoader;
+import assuncao.bryan.codes.interfaces.domain.DataBaseLoader;
+import assuncao.bryan.codes.interfaces.domain.DataLoader;
+import assuncao.bryan.codes.interfaces.domain.FileLoader;
 
 
 public class DataLoaderTest {

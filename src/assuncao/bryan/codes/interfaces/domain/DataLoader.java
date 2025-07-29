@@ -1,4 +1,4 @@
-package assuncao.bryan.codes.interfacess.domain;
+package assuncao.bryan.codes.interfaces.domain;
 
 public interface DataLoader {
     void load();
