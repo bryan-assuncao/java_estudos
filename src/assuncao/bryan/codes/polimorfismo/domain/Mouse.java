@@ -5,13 +5,13 @@ public class Mouse extends Product {
 
     public final static double TAX_PERCENTAGE = 0.20;
 
-    public Mouse(String name, double value) {
-        super(name, value);
+    public Mouse(String name, double price) {
+        super(name, price);
     }
 
     @Override
     public double calculateTax() {
-        return this.value * TAX_PERCENTAGE;
+        return this.price * TAX_PERCENTAGE;
     }
 
     public String getGuarantee() {

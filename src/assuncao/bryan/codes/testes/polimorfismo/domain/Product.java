@@ -2,18 +2,18 @@ package assuncao.bryan.codes.testes.polimorfismo.domain;
 
 public abstract class Product implements ProductTax{
     protected String productName;
-    protected double productValue;
+    protected double productPrice;
 
-    public Product(String productName, double productValue) {
+    public Product(String productName, double productPrice) {
         this.productName = productName;
-        this.productValue = productValue;
+        this.productPrice = productPrice;
     }
 
     public String getProductName() {
         return productName;
     }
 
-    public double getProductValue() {
-        return productValue;
+    public double getProductPrice() {
+        return productPrice;
     }
 }

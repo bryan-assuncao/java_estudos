@@ -8,7 +8,7 @@ public class CalculateProductsTax {
     public static void taxProducts(Product product){
         double tax = product.productTax();
         System.out.println("Product: " + product.getProductName());
-        System.out.println("Product: " + product.getProductValue());
+        System.out.println("Product: " + product.getProductPrice());
         System.out.println("Product: " + tax);
 
         if(product instanceof Tomato){

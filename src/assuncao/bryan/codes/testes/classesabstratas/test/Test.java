@@ -1,9 +1,7 @@
 package assuncao.bryan.codes.testes.classesabstratas.test;
 
-import assuncao.bryan.codes.classe.domain.Bryan;
 import assuncao.bryan.codes.testes.classesabstratas.domain.Bryan1v9;
 import assuncao.bryan.codes.testes.classesabstratas.domain.HighEnd;
-import assuncao.bryan.codes.testes.classesabstratas.domain.Player;
 
 public class Test {
     public static void main(String[] args) {
