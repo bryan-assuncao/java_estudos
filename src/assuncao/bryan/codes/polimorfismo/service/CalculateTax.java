@@ -1,23 +1,19 @@
 package assuncao.bryan.codes.polimorfismo.service;
 
-import assuncao.bryan.codes.polimorfismo.domain.Computer;
-import assuncao.bryan.codes.polimorfismo.domain.Monitor;
+import assuncao.bryan.codes.polimorfismo.domain.Mouse;
+import assuncao.bryan.codes.polimorfismo.domain.Product;
 
 public class CalculateTax {
 
-    public static void computerTax(Computer computer){
-        double tax = computer.calculateTax();
-
-        System.out.println("Name: " + computer.getName());
-        System.out.println("Product: " + computer.getValue());
+    public static void calculateTax(Product product){
+        double tax = product.calculateTax();
+        System.out.println("Name: " + product.getName());
+        System.out.println("Product: " + product.getValue());
         System.out.println("Tax: " + tax);
-    }
 
-    public static void monitorTax(Monitor monitor){
-        double tax = monitor.calculateTax();
-
-        System.out.println("Name: " + monitor.getName());
-        System.out.println("Product: " + monitor.getValue());
-        System.out.println("Tax: " + tax);
+        if(product instanceof Mouse) {
+            String mouseGuarantee = ((Mouse) product).getGuarantee();
+            System.out.println("Guarantee: " + mouseGuarantee);
+        }
     }
 }
