@@ -9,6 +9,8 @@ public abstract class Player {
         this.lane = lane;
     }
 
+    public abstract void dive();
+
     public String getNickName() {
         return nickName;
     }

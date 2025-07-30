@@ -12,6 +12,12 @@ public class HighEnd extends Player {
         System.out.println("Nick: " + this.nickName);
         System.out.println("Nick: " + this.lane);
         System.out.println("Elo: " + this.elo);
+        dive();
+    }
+
+    @Override
+    public void dive() {
+        System.out.println("dive");
     }
 
     @Override

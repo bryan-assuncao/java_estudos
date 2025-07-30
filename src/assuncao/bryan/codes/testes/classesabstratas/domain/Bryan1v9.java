@@ -6,6 +6,9 @@ public class Bryan1v9 extends Player{
         super(nickName, lane);
     }
 
+    @Override
+    public void dive() {}
+
     public void printBryan1v9(){
         System.out.println("Nick: " + this.nickName);
         System.out.println("Lane: " + this.lane);
