@@ -6,9 +6,9 @@ public class CalcularTaxaPCsGamers {
     public static void taxaPcGamer(LanHouse lanHouse){
         double taxaGamer = lanHouse.taxa();
         System.out.println("PC: " + lanHouse.getPc());
-        System.out.println("Valor Hora: " + lanHouse.getValorHora());
+        System.out.println("Valor Hora: R$ " + lanHouse.getValorHora());
         if(taxaGamer > 0) {
-            System.out.println("Taxa PC Gamer: " + taxaGamer);
+            System.out.println("Taxa PC Gamer: R$ " + taxaGamer);
         }
     }
 }
