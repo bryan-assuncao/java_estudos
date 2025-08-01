@@ -1,6 +1,6 @@
 package assuncao.bryan.codes.excecoes.runtime.test;
 
-public class Rt03 {
+public class RunTimeExceptionTest03 {
     public static void main(String[] args) {
 
         System.out.println(divisao(10, 0));

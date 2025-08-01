@@ -3,7 +3,7 @@ package assuncao.bryan.codes.excecoes.exception.test;
 import java.io.File;
 import java.io.IOException;
 
-public class Ex03 {
+public class ExceptionTest03 {
     public static void main(String[] args) {
         criarArquivo();
     }
