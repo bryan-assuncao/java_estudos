@@ -17,8 +17,4 @@ public class Mouse extends Product {
     public String getGuarantee() {
         return guarantee;
     }
-
-    public void setGuarantee(String guarantee) {
-        this.guarantee = guarantee;
-    }
 }
