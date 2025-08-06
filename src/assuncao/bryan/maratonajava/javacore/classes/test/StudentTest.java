@@ -26,6 +26,7 @@ public class StudentTest {
         student02.print();
 
         student.justName();
+
         
 
 
