@@ -1,19 +1,21 @@
 package assuncao.bryan.codes.excecoes.exception.test;
 
+import assuncao.bryan.codes.excecoes.domain.Leitor1;
+import assuncao.bryan.codes.excecoes.domain.Leitor2;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.IOException;
-import java.io.Reader;
 
 public class TryWithResourcesTest {
     public static void main(String[] args) {
 
+        lerArquivo();
     }
-    public void lerArquivo(){
 
-        try(Reader reader = new BufferedReader(new FileReader("teste.txt"))){
+    public static void lerArquivo(){
 
+        try(Leitor1 leitor1 = new Leitor1();
+            Leitor2 leitor2 = new Leitor2()){
+            System.out.println("foi");
         }
         catch (IOException e){
             System.out.println(e.getMessage());
