@@ -1,11 +1,9 @@
 package assuncao.bryan.maratonajava.javacore.datas.test;
 
-import java.time.LocalDateTime;
-
-public class DateTest03 {
+public class LocalDateTime {
     public static void main(String[] args) {
 
-        LocalDateTime dataHora = LocalDateTime.now();
+        java.time.LocalDateTime dataHora = java.time.LocalDateTime.now();
         System.out.println(dataHora.getHour());
         System.out.println(dataHora.getDayOfMonth());
         System.out.println(dataHora.getMonth());
@@ -13,7 +11,7 @@ public class DateTest03 {
         System.out.println(dataHora.getDayOfMonth());
         System.out.println(dataHora);
 
-        LocalDateTime dataHora2 = LocalDateTime.of(2001, 02, 26, 12, 00);
+        java.time.LocalDateTime dataHora2 = java.time.LocalDateTime.of(2001, 02, 26, 12, 00);
         System.out.println(dataHora2);
 
     }
