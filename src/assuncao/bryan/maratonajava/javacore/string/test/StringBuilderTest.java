@@ -7,10 +7,10 @@ public class StringBuilderTest {
 
         System.out.println(name);
 
-        StringBuilder sb = new StringBuilder(name);
-        sb.append(" Assunção");
+        StringBuilder nomeCompleto = new StringBuilder(name);
+        nomeCompleto.append(" Assunção");
 
-        System.out.println(sb);
+        System.out.println(nomeCompleto);
 
 
 
