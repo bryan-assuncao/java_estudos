@@ -6,7 +6,7 @@ import java.time.LocalTime;
 import java.time.Month;
 import java.time.format.DateTimeFormatter;
 
-public class DataHora {
+public class LocalDateTimeTest {
     public static void main(String[] args) {
 
         LocalDateTime dataHora = LocalDateTime.now();

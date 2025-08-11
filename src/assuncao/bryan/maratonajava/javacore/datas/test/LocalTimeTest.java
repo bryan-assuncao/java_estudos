@@ -4,7 +4,7 @@ import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
 
-public class Hora {
+public class LocalTimeTest {
     public static void main(String[] args) {
 
         LocalTime hora = LocalTime.now();
