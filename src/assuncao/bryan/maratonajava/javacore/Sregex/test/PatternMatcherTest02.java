@@ -14,13 +14,16 @@ public class PatternMatcherTest02 {
 
         String regex = "\\d";
         String regex2 = "\\D";
-        String text = "9jk8g7";
+        String regex3 = "\\W";
+        String text = "9*jk#8g7!";
 
         Pattern pattern = Pattern.compile(regex);
         Pattern pattern2 = Pattern.compile(regex2);
+        Pattern pattern3 = Pattern.compile(regex3);
 
         Matcher matcher = pattern.matcher(text);
         Matcher matcher2 = pattern2.matcher(text);
+        Matcher matcher3 = pattern3.matcher(text);
 
         while (matcher.find()) {
             System.out.println(matcher.start() + " " + matcher.group());
@@ -30,6 +33,12 @@ public class PatternMatcherTest02 {
 
         while (matcher2.find()) {
             System.out.println(matcher2.start() + " " + matcher2.group());
+        }
+
+        System.out.println("---");
+
+        while (matcher3.find()){
+            System.out.println(matcher3.start() + " " + matcher3.group());
         }
     }
 }
