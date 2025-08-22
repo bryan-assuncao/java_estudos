@@ -9,11 +9,11 @@ public class BufferedWriterTest02 {
     public static void main(String[] args) {
         File file = new File("C:\\Users\\bryan.assuncao\\Downloads\\java_estudos\\arquivos\\text.txt");
 
-        try (BufferedWriter br = new BufferedWriter(new FileWriter(file, true))) {
-            br.write("Zoro");
-            br.newLine();
-            br.write("Sola");
-            br.flush();
+        try (BufferedWriter bw = new BufferedWriter(new FileWriter(file, true))) {
+            bw.write("Zoro");
+            bw.newLine();
+            bw.write("Sola");
+            bw.flush();
 
             System.out.println("Arquivo criado.");
         } catch (IOException e) {
