@@ -1,4 +1,4 @@
-package assuncao.bryan.maratonajava.javacore.FmodificadorEstatico.domain;
+package assuncao.bryan.maratonajava.javacore.F_ModificadorEstatico.domain;
 
 public class Film {
     private String name;

@@ -1,7 +1,7 @@
-package assuncao.bryan.maratonajava.javacore.Aclasses.test;
+package assuncao.bryan.maratonajava.javacore.A_Classes.test;
 
-import assuncao.bryan.maratonajava.javacore.Aclasses.domain.Student;
-import assuncao.bryan.maratonajava.javacore.Aclasses.domain.StudentPrinter;
+import assuncao.bryan.maratonajava.javacore.A_Classes.domain.Student;
+import assuncao.bryan.maratonajava.javacore.A_Classes.domain.StudentPrinter;
 
 public class StudentTest {
     public static void main(String[] args){

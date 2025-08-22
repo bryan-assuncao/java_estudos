@@ -1,4 +1,4 @@
-package assuncao.bryan.maratonajava.javacore.Ztestes.polimorfismo04.domain;
+package assuncao.bryan.maratonajava.javacore.Z_Testes.polimorfismo04.domain;
 
 public class Pc01 extends LanHouse {
     private final static double TAXA_PC01 = 0.20;

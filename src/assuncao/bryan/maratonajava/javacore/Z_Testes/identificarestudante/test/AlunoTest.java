@@ -1,7 +1,7 @@
-package assuncao.bryan.maratonajava.javacore.Ztestes.identificarestudante.test;
+package assuncao.bryan.maratonajava.javacore.Z_Testes.identificarestudante.test;
 
-import assuncao.bryan.maratonajava.javacore.Ztestes.identificarestudante.domain.Aluno;
-import assuncao.bryan.maratonajava.javacore.Ztestes.identificarestudante.domain.Bolsista;
+import assuncao.bryan.maratonajava.javacore.Z_Testes.identificarestudante.domain.Aluno;
+import assuncao.bryan.maratonajava.javacore.Z_Testes.identificarestudante.domain.Bolsista;
 
 public class AlunoTest {
     public static void main(String[] args) {

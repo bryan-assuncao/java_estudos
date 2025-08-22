@@ -1,4 +1,4 @@
-package assuncao.bryan.maratonajava.javacore.Ztestes.identificarestudante.domain;
+package assuncao.bryan.maratonajava.javacore.Z_Testes.identificarestudante.domain;
 
 public class Aluno {
     private final String name;

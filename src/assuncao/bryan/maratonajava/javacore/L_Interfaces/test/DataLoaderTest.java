@@ -1,8 +1,8 @@
-package assuncao.bryan.maratonajava.javacore.Linterfaces.test;
+package assuncao.bryan.maratonajava.javacore.L_Interfaces.test;
 
-import assuncao.bryan.maratonajava.javacore.Linterfaces.domain.DataBaseLoader;
-import assuncao.bryan.maratonajava.javacore.Linterfaces.domain.DataLoader;
-import assuncao.bryan.maratonajava.javacore.Linterfaces.domain.FileLoader;
+import assuncao.bryan.maratonajava.javacore.L_Interfaces.domain.DataBaseLoader;
+import assuncao.bryan.maratonajava.javacore.L_Interfaces.domain.DataLoader;
+import assuncao.bryan.maratonajava.javacore.L_Interfaces.domain.FileLoader;
 
 
 public class DataLoaderTest {

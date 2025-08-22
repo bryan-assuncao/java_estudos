@@ -1,4 +1,4 @@
-package assuncao.bryan.maratonajava.javacore.Isobrescrita.domain;
+package assuncao.bryan.maratonajava.javacore.I_Sobrescrita.domain;
 
 public class Anime {
     private String name;

@@ -1,6 +1,6 @@
-package assuncao.bryan.maratonajava.javacore.Gassociacao.test;
+package assuncao.bryan.maratonajava.javacore.G_Associacao.test;
 
-import assuncao.bryan.maratonajava.javacore.Gassociacao.domain.Cla;
+import assuncao.bryan.maratonajava.javacore.G_Associacao.domain.Cla;
 
 public class ClaTest {
     public static void main(String[] args) {

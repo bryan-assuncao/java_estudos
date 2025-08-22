@@ -1,4 +1,4 @@
-package assuncao.bryan.maratonajava.javacore.RresourceBundle.test;
+package assuncao.bryan.maratonajava.javacore.R_ResourceBundle.test;
 
 import java.util.Locale;
 import java.util.ResourceBundle;

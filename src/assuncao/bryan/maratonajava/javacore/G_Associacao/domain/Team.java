@@ -1,4 +1,4 @@
-package assuncao.bryan.maratonajava.javacore.Gassociacao.domain;
+package assuncao.bryan.maratonajava.javacore.G_Associacao.domain;
 
 public class Team {
     private String name;

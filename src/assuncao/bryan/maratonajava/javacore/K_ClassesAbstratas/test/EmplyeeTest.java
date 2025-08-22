@@ -1,7 +1,7 @@
-package assuncao.bryan.maratonajava.javacore.KclassesAbstratas.test;
+package assuncao.bryan.maratonajava.javacore.K_ClassesAbstratas.test;
 
-import assuncao.bryan.maratonajava.javacore.KclassesAbstratas.domain.Manager;
-import assuncao.bryan.maratonajava.javacore.KclassesAbstratas.domain.Developer;
+import assuncao.bryan.maratonajava.javacore.K_ClassesAbstratas.domain.Manager;
+import assuncao.bryan.maratonajava.javacore.K_ClassesAbstratas.domain.Developer;
 
 public class EmplyeeTest {
     public static void main(String[] args) {

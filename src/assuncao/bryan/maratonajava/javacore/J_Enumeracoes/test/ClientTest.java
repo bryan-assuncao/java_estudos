@@ -1,8 +1,8 @@
-package assuncao.bryan.maratonajava.javacore.Jenumeracoes.test;
+package assuncao.bryan.maratonajava.javacore.J_Enumeracoes.test;
 
-import assuncao.bryan.maratonajava.javacore.Jenumeracoes.domain.Client;
-import assuncao.bryan.maratonajava.javacore.Jenumeracoes.domain.ClientType;
-import assuncao.bryan.maratonajava.javacore.Jenumeracoes.domain.Payment;
+import assuncao.bryan.maratonajava.javacore.J_Enumeracoes.domain.Client;
+import assuncao.bryan.maratonajava.javacore.J_Enumeracoes.domain.ClientType;
+import assuncao.bryan.maratonajava.javacore.J_Enumeracoes.domain.Payment;
 
 public class ClientTest {
     public static void main(String[] args) {

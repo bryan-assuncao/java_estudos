@@ -1,7 +1,7 @@
-package assuncao.bryan.maratonajava.javacore.Ztestes.classesabstratas.test;
+package assuncao.bryan.maratonajava.javacore.Z_Testes.classesabstratas.test;
 
-import assuncao.bryan.maratonajava.javacore.Ztestes.classesabstratas.domain.Bryan1v9;
-import assuncao.bryan.maratonajava.javacore.Ztestes.classesabstratas.domain.HighEnd;
+import assuncao.bryan.maratonajava.javacore.Z_Testes.classesabstratas.domain.Bryan1v9;
+import assuncao.bryan.maratonajava.javacore.Z_Testes.classesabstratas.domain.HighEnd;
 
 public class Test {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package assuncao.bryan.maratonajava.javacore.CsobrecargaDeMetodos.test;
+package assuncao.bryan.maratonajava.javacore.C_SobrecargaDeMetodos.test;
 
-import assuncao.bryan.maratonajava.javacore.CsobrecargaDeMetodos.domain.Overloading;
+import assuncao.bryan.maratonajava.javacore.C_SobrecargaDeMetodos.domain.Overloading;
 
 public class OverloadingTest {
     public static void main(String[] args) {

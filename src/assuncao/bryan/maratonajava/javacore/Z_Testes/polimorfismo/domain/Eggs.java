@@ -1,4 +1,4 @@
-package assuncao.bryan.maratonajava.javacore.Ztestes.polimorfismo.domain;
+package assuncao.bryan.maratonajava.javacore.Z_Testes.polimorfismo.domain;
 
 public class Eggs extends Product{
     private static final double TAX_PERCENTAGE = 0.35;

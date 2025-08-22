@@ -1,6 +1,6 @@
-package assuncao.bryan.maratonajava.javacore.CsobrecargaDeMetodos.test;
+package assuncao.bryan.maratonajava.javacore.C_SobrecargaDeMetodos.test;
 
-import assuncao.bryan.maratonajava.javacore.CsobrecargaDeMetodos.domain.Anime;
+import assuncao.bryan.maratonajava.javacore.C_SobrecargaDeMetodos.domain.Anime;
 
 public class AnimeTest {
     public static void main(String[] args){

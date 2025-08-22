@@ -1,4 +1,4 @@
-package assuncao.bryan.maratonajava.javacore.Ztestes.polimorfismo.domain;
+package assuncao.bryan.maratonajava.javacore.Z_Testes.polimorfismo.domain;
 
 public abstract class Product implements ProductTax{
     protected String productName;

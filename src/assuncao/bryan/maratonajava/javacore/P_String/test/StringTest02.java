@@ -1,4 +1,4 @@
-package assuncao.bryan.maratonajava.javacore.Pstring.test;
+package assuncao.bryan.maratonajava.javacore.P_String.test;
 
 public class StringTest02 {
     public static void main(String[] args) {

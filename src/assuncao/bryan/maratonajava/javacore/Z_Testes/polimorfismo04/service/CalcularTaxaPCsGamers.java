@@ -1,6 +1,6 @@
-package assuncao.bryan.maratonajava.javacore.Ztestes.polimorfismo04.service;
+package assuncao.bryan.maratonajava.javacore.Z_Testes.polimorfismo04.service;
 
-import assuncao.bryan.maratonajava.javacore.Ztestes.polimorfismo04.domain.LanHouse;
+import assuncao.bryan.maratonajava.javacore.Z_Testes.polimorfismo04.domain.LanHouse;
 
 public class CalcularTaxaPCsGamers {
     public static void taxaPcGamer(LanHouse lanHouse){

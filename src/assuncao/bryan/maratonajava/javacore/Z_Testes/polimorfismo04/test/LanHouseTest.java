@@ -1,9 +1,9 @@
-package assuncao.bryan.maratonajava.javacore.Ztestes.polimorfismo04.test;
+package assuncao.bryan.maratonajava.javacore.Z_Testes.polimorfismo04.test;
 
-import assuncao.bryan.maratonajava.javacore.Ztestes.polimorfismo04.domain.LanHouse;
-import assuncao.bryan.maratonajava.javacore.Ztestes.polimorfismo04.domain.Pc01;
-import assuncao.bryan.maratonajava.javacore.Ztestes.polimorfismo04.domain.Pc02;
-import assuncao.bryan.maratonajava.javacore.Ztestes.polimorfismo04.service.CalcularTaxaPCsGamers;
+import assuncao.bryan.maratonajava.javacore.Z_Testes.polimorfismo04.domain.LanHouse;
+import assuncao.bryan.maratonajava.javacore.Z_Testes.polimorfismo04.domain.Pc01;
+import assuncao.bryan.maratonajava.javacore.Z_Testes.polimorfismo04.domain.Pc02;
+import assuncao.bryan.maratonajava.javacore.Z_Testes.polimorfismo04.service.CalcularTaxaPCsGamers;
 
 public class LanHouseTest {
     public static void main(String[] args) {

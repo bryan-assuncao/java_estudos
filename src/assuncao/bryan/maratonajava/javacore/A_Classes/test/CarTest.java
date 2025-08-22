@@ -1,6 +1,6 @@
-package assuncao.bryan.maratonajava.javacore.Aclasses.test;
+package assuncao.bryan.maratonajava.javacore.A_Classes.test;
 
-import assuncao.bryan.maratonajava.javacore.Aclasses.domain.Car;
+import assuncao.bryan.maratonajava.javacore.A_Classes.domain.Car;
 
 public class CarTest {
     public static void main(String[] args) {

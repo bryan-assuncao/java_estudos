@@ -1,9 +1,9 @@
-package assuncao.bryan.maratonajava.javacore.Ztestes.sistemaescolar.test;
+package assuncao.bryan.maratonajava.javacore.Z_Testes.sistemaescolar.test;
 
-import assuncao.bryan.maratonajava.javacore.Ztestes.sistemaescolar.domain.Aluno;
-import assuncao.bryan.maratonajava.javacore.Ztestes.sistemaescolar.domain.Docente;
-import assuncao.bryan.maratonajava.javacore.Ztestes.sistemaescolar.domain.Pessoa;
-import assuncao.bryan.maratonajava.javacore.Ztestes.sistemaescolar.service.Prints;
+import assuncao.bryan.maratonajava.javacore.Z_Testes.sistemaescolar.domain.Aluno;
+import assuncao.bryan.maratonajava.javacore.Z_Testes.sistemaescolar.domain.Docente;
+import assuncao.bryan.maratonajava.javacore.Z_Testes.sistemaescolar.domain.Pessoa;
+import assuncao.bryan.maratonajava.javacore.Z_Testes.sistemaescolar.service.Prints;
 
 public class PessoaTest {
     public static void main(String[] args) {

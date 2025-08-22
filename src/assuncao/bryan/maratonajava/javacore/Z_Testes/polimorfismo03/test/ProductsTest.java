@@ -1,9 +1,9 @@
-package assuncao.bryan.maratonajava.javacore.Ztestes.polimorfismo03.test;
+package assuncao.bryan.maratonajava.javacore.Z_Testes.polimorfismo03.test;
 
-import assuncao.bryan.maratonajava.javacore.Ztestes.polimorfismo03.domain.Product;
-import assuncao.bryan.maratonajava.javacore.Ztestes.polimorfismo03.domain.Table;
-import assuncao.bryan.maratonajava.javacore.Ztestes.polimorfismo03.domain.Window;
-import assuncao.bryan.maratonajava.javacore.Ztestes.polimorfismo03.service.CalculateTax;
+import assuncao.bryan.maratonajava.javacore.Z_Testes.polimorfismo03.domain.Product;
+import assuncao.bryan.maratonajava.javacore.Z_Testes.polimorfismo03.domain.Table;
+import assuncao.bryan.maratonajava.javacore.Z_Testes.polimorfismo03.domain.Window;
+import assuncao.bryan.maratonajava.javacore.Z_Testes.polimorfismo03.service.CalculateTax;
 
 public class ProductsTest {
     public static void main(String[] args) {

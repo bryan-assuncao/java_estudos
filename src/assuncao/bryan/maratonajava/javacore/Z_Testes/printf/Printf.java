@@ -1,4 +1,4 @@
-package assuncao.bryan.maratonajava.javacore.Ztestes.printf;
+package assuncao.bryan.maratonajava.javacore.Z_Testes.printf;
 
 public class Printf {
     public static void main(String[] args) {

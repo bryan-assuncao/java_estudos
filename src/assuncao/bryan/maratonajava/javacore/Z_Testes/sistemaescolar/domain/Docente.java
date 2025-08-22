@@ -1,4 +1,4 @@
-package assuncao.bryan.maratonajava.javacore.Ztestes.sistemaescolar.domain;
+package assuncao.bryan.maratonajava.javacore.Z_Testes.sistemaescolar.domain;
 
 public class Docente extends Pessoa{
     private String disciplina;

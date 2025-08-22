@@ -1,4 +1,4 @@
-package assuncao.bryan.maratonajava.javacore.Sregex.test;
+package assuncao.bryan.maratonajava.javacore.S_Regex.test;
 
 import java.util.Scanner;
 

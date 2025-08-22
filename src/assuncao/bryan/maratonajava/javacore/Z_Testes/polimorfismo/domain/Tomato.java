@@ -1,4 +1,4 @@
-package assuncao.bryan.maratonajava.javacore.Ztestes.polimorfismo.domain;
+package assuncao.bryan.maratonajava.javacore.Z_Testes.polimorfismo.domain;
 
 public class Tomato extends Product{
     private final String expiryDate ="30/07/2025";

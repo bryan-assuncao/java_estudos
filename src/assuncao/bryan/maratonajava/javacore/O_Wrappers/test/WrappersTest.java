@@ -1,4 +1,4 @@
-package assuncao.bryan.maratonajava.javacore.Owrappers.test;
+package assuncao.bryan.maratonajava.javacore.O_Wrappers.test;
 
 public class WrappersTest {
     public static void main(String[] args) {

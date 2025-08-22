@@ -1,9 +1,9 @@
-package assuncao.bryan.maratonajava.javacore.Mpolimorfismo.test;
+package assuncao.bryan.maratonajava.javacore.M_Polimorfismo.test;
 
-import assuncao.bryan.maratonajava.javacore.Mpolimorfismo.repository.Repository;
-import assuncao.bryan.maratonajava.javacore.Mpolimorfismo.service.DataBaseRepository;
-import assuncao.bryan.maratonajava.javacore.Mpolimorfismo.service.FileRepository;
-import assuncao.bryan.maratonajava.javacore.Mpolimorfismo.service.MemoryRepository;
+import assuncao.bryan.maratonajava.javacore.M_Polimorfismo.repository.Repository;
+import assuncao.bryan.maratonajava.javacore.M_Polimorfismo.service.DataBaseRepository;
+import assuncao.bryan.maratonajava.javacore.M_Polimorfismo.service.FileRepository;
+import assuncao.bryan.maratonajava.javacore.M_Polimorfismo.service.MemoryRepository;
 
 public class RepositoryTest {
     public static void main(String[] args) {

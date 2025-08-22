@@ -1,6 +1,6 @@
-package assuncao.bryan.maratonajava.javacore.Mpolimorfismo.service;
+package assuncao.bryan.maratonajava.javacore.M_Polimorfismo.service;
 
-import assuncao.bryan.maratonajava.javacore.Mpolimorfismo.repository.Repository;
+import assuncao.bryan.maratonajava.javacore.M_Polimorfismo.repository.Repository;
 
 public class FileRepository implements Repository {
     @Override

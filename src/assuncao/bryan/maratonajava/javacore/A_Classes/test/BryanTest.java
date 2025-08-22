@@ -1,6 +1,6 @@
-package assuncao.bryan.maratonajava.javacore.Aclasses.test;
+package assuncao.bryan.maratonajava.javacore.A_Classes.test;
 
-import assuncao.bryan.maratonajava.javacore.Aclasses.domain.Bryan;
+import assuncao.bryan.maratonajava.javacore.A_Classes.domain.Bryan;
 
 public class BryanTest {
     public static void main(String[] args) {

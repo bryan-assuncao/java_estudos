@@ -1,9 +1,9 @@
-package assuncao.bryan.maratonajava.javacore.Mpolimorfismo.test;
+package assuncao.bryan.maratonajava.javacore.M_Polimorfismo.test;
 
-import assuncao.bryan.maratonajava.javacore.Mpolimorfismo.domain.Computer;
-import assuncao.bryan.maratonajava.javacore.Mpolimorfismo.domain.Monitor;
-import assuncao.bryan.maratonajava.javacore.Mpolimorfismo.domain.Mouse;
-import assuncao.bryan.maratonajava.javacore.Mpolimorfismo.service.CalculateTax;
+import assuncao.bryan.maratonajava.javacore.M_Polimorfismo.domain.Computer;
+import assuncao.bryan.maratonajava.javacore.M_Polimorfismo.domain.Monitor;
+import assuncao.bryan.maratonajava.javacore.M_Polimorfismo.domain.Mouse;
+import assuncao.bryan.maratonajava.javacore.M_Polimorfismo.service.CalculateTax;
 
 public class ProductTest {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package assuncao.bryan.maratonajava.javacore.Bmetodos.domain;
+package assuncao.bryan.maratonajava.javacore.B_Metodos.domain;
 
 public class Calculator {
 

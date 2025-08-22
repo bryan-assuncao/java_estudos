@@ -1,4 +1,4 @@
-package assuncao.bryan.maratonajava.javacore.Linterfaces.domain;
+package assuncao.bryan.maratonajava.javacore.L_Interfaces.domain;
 
 public interface DataLoader {
     void load();

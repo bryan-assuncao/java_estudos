@@ -1,8 +1,8 @@
-package assuncao.bryan.maratonajava.javacore.Hheranca.test;
+package assuncao.bryan.maratonajava.javacore.H_Heranca.test;
 
-import assuncao.bryan.maratonajava.javacore.Hheranca.domain.Endereco;
-import assuncao.bryan.maratonajava.javacore.Hheranca.domain.Funcionario;
-import assuncao.bryan.maratonajava.javacore.Hheranca.domain.Pessoa;
+import assuncao.bryan.maratonajava.javacore.H_Heranca.domain.Endereco;
+import assuncao.bryan.maratonajava.javacore.H_Heranca.domain.Funcionario;
+import assuncao.bryan.maratonajava.javacore.H_Heranca.domain.Pessoa;
 
 public class HerencaTest01 {
     public static void main(String[] args) {

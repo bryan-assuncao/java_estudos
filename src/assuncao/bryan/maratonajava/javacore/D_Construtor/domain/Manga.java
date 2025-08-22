@@ -1,4 +1,4 @@
-package assuncao.bryan.maratonajava.javacore.Dconstrutor.domain;
+package assuncao.bryan.maratonajava.javacore.D_Construtor.domain;
 
 public class Manga {
     private String name;

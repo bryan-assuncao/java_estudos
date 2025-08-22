@@ -1,4 +1,4 @@
-package assuncao.bryan.maratonajava.javacore.EblocosDeInicializacao.domain;
+package assuncao.bryan.maratonajava.javacore.E_BlocosDeInicializacao.domain;
 
 public class Serie {
     private String name;

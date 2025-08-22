@@ -1,6 +1,6 @@
-package assuncao.bryan.maratonajava.javacore.FmodificadorEstatico.test;
+package assuncao.bryan.maratonajava.javacore.F_ModificadorEstatico.test;
 
-import assuncao.bryan.maratonajava.javacore.FmodificadorEstatico.domain.VideoCard;
+import assuncao.bryan.maratonajava.javacore.F_ModificadorEstatico.domain.VideoCard;
 
 public class VideoCardTest {
     public static void main(String[] args) {

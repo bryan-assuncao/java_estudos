@@ -1,7 +1,7 @@
-package assuncao.bryan.maratonajava.javacore.Mpolimorfismo.service;
+package assuncao.bryan.maratonajava.javacore.M_Polimorfismo.service;
 
-import assuncao.bryan.maratonajava.javacore.Mpolimorfismo.domain.Mouse;
-import assuncao.bryan.maratonajava.javacore.Mpolimorfismo.domain.Product;
+import assuncao.bryan.maratonajava.javacore.M_Polimorfismo.domain.Mouse;
+import assuncao.bryan.maratonajava.javacore.M_Polimorfismo.domain.Product;
 
 public class CalculateTax {
 

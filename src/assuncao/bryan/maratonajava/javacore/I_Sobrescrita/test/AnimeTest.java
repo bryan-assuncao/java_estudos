@@ -1,6 +1,6 @@
-package assuncao.bryan.maratonajava.javacore.Isobrescrita.test;
+package assuncao.bryan.maratonajava.javacore.I_Sobrescrita.test;
 
-import assuncao.bryan.maratonajava.javacore.Isobrescrita.domain.Anime;
+import assuncao.bryan.maratonajava.javacore.I_Sobrescrita.domain.Anime;
 
 public class AnimeTest {
     public static void main(String[] args) {

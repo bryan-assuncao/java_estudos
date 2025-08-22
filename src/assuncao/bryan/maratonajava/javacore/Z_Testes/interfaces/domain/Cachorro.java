@@ -1,4 +1,4 @@
-package assuncao.bryan.maratonajava.javacore.Ztestes.interfaces.domain;
+package assuncao.bryan.maratonajava.javacore.Z_Testes.interfaces.domain;
 
 public class Cachorro implements Animal, Domesticado{
     @Override

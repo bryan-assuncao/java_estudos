@@ -1,4 +1,4 @@
-package assuncao.bryan.maratonajava.javacore.Hheranca.domain;
+package assuncao.bryan.maratonajava.javacore.H_Heranca.domain;
 
 public class Funcionario extends Pessoa {
     private double salario;

@@ -1,6 +1,6 @@
-package assuncao.bryan.maratonajava.javacore.Jenumeracoes.test;
+package assuncao.bryan.maratonajava.javacore.J_Enumeracoes.test;
 
-import assuncao.bryan.maratonajava.javacore.Jenumeracoes.domain.Employee;
+import assuncao.bryan.maratonajava.javacore.J_Enumeracoes.domain.Employee;
 
 public class EmployeeTest {
     public static void main(String[] args) {

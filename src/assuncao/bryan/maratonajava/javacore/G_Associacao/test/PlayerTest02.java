@@ -1,7 +1,7 @@
-package assuncao.bryan.maratonajava.javacore.Gassociacao.test;
+package assuncao.bryan.maratonajava.javacore.G_Associacao.test;
 
-import assuncao.bryan.maratonajava.javacore.Gassociacao.domain.Player;
-import assuncao.bryan.maratonajava.javacore.Gassociacao.domain.Team;
+import assuncao.bryan.maratonajava.javacore.G_Associacao.domain.Player;
+import assuncao.bryan.maratonajava.javacore.G_Associacao.domain.Team;
 
 public class PlayerTest02 {
     public static void main(String[] args) {

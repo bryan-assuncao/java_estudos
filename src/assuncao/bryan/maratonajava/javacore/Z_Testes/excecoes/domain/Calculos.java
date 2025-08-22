@@ -1,4 +1,4 @@
-package assuncao.bryan.maratonajava.javacore.Ztestes.excecoes.domain;
+package assuncao.bryan.maratonajava.javacore.Z_Testes.excecoes.domain;
 
 public class Calculos {
 

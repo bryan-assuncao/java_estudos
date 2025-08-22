@@ -1,4 +1,4 @@
-package assuncao.bryan.maratonajava.javacore.Ztestes.classesabstratas.domain;
+package assuncao.bryan.maratonajava.javacore.Z_Testes.classesabstratas.domain;
 
 public abstract class Player {
     protected String nickName;

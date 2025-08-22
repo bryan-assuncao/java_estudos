@@ -1,4 +1,4 @@
-package assuncao.bryan.maratonajava.javacore.Ztestes.polimorfismo02.domain;
+package assuncao.bryan.maratonajava.javacore.Z_Testes.polimorfismo02.domain;
 
 public class Suina extends Carnes{
     private String dataValidade = "12/12/2025";

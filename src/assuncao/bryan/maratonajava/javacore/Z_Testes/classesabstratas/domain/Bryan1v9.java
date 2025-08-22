@@ -1,4 +1,4 @@
-package assuncao.bryan.maratonajava.javacore.Ztestes.classesabstratas.domain;
+package assuncao.bryan.maratonajava.javacore.Z_Testes.classesabstratas.domain;
 
 public class Bryan1v9 extends Player{
 

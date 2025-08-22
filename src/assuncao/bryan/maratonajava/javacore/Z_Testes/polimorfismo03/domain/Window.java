@@ -1,4 +1,4 @@
-package assuncao.bryan.maratonajava.javacore.Ztestes.polimorfismo03.domain;
+package assuncao.bryan.maratonajava.javacore.Z_Testes.polimorfismo03.domain;
 
 public class Window extends Product{
     public final static double TAX_PERCENTAGE = 0.30;

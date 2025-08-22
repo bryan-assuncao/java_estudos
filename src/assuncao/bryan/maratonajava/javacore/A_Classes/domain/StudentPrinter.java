@@ -1,4 +1,4 @@
-package assuncao.bryan.maratonajava.javacore.Aclasses.domain;
+package assuncao.bryan.maratonajava.javacore.A_Classes.domain;
 
 public class StudentPrinter {
     public void print(Student student){

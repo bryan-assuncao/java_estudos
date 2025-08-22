@@ -1,6 +1,6 @@
-package assuncao.bryan.maratonajava.javacore.Isobrescrita.test;
+package assuncao.bryan.maratonajava.javacore.I_Sobrescrita.test;
 
-import assuncao.bryan.maratonajava.javacore.Isobrescrita.domain.Car;
+import assuncao.bryan.maratonajava.javacore.I_Sobrescrita.domain.Car;
 
 public class CarTest01 {
     public static void main(String[] args) {

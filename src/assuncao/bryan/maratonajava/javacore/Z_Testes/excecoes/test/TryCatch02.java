@@ -1,6 +1,6 @@
-package assuncao.bryan.maratonajava.javacore.Ztestes.excecoes.test;
+package assuncao.bryan.maratonajava.javacore.Z_Testes.excecoes.test;
 
-import assuncao.bryan.maratonajava.javacore.Ztestes.excecoes.domain.Calculos;
+import assuncao.bryan.maratonajava.javacore.Z_Testes.excecoes.domain.Calculos;
 
 import javax.swing.*;
 

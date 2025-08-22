@@ -1,6 +1,6 @@
-package assuncao.bryan.maratonajava.javacore.Bmetodos.test;
+package assuncao.bryan.maratonajava.javacore.B_Metodos.test;
 
-import assuncao.bryan.maratonajava.javacore.Bmetodos.domain.Calculator;
+import assuncao.bryan.maratonajava.javacore.B_Metodos.domain.Calculator;
 
 public class CalculatorTest {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package assuncao.bryan.maratonajava.javacore.Aclasses.test;
+package assuncao.bryan.maratonajava.javacore.A_Classes.test;
 
 import java.util.Scanner;
 

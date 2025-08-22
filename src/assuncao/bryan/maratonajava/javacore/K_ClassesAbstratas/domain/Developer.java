@@ -1,4 +1,4 @@
-package assuncao.bryan.maratonajava.javacore.KclassesAbstratas.domain;
+package assuncao.bryan.maratonajava.javacore.K_ClassesAbstratas.domain;
 
 public class Developer extends Employee{
     public Developer(String name, double salary) {

@@ -1,6 +1,6 @@
-package assuncao.bryan.maratonajava.javacore.FmodificadorEstatico.test;
+package assuncao.bryan.maratonajava.javacore.F_ModificadorEstatico.test;
 
-import assuncao.bryan.maratonajava.javacore.FmodificadorEstatico.domain.Film;
+import assuncao.bryan.maratonajava.javacore.F_ModificadorEstatico.domain.Film;
 
 public class FilmTest {
     public static void main(String[] args) {

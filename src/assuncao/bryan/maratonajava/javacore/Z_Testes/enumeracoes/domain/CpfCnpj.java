@@ -1,4 +1,4 @@
-package assuncao.bryan.maratonajava.javacore.Ztestes.enumeracoes.domain;
+package assuncao.bryan.maratonajava.javacore.Z_Testes.enumeracoes.domain;
 
 public enum CpfCnpj {
     CPF(1), CNPJ(2);

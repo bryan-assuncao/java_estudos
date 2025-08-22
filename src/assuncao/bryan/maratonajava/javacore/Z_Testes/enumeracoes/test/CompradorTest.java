@@ -1,8 +1,8 @@
-package assuncao.bryan.maratonajava.javacore.Ztestes.enumeracoes.test;
+package assuncao.bryan.maratonajava.javacore.Z_Testes.enumeracoes.test;
 
-import assuncao.bryan.maratonajava.javacore.Ztestes.enumeracoes.domain.Comprador;
-import assuncao.bryan.maratonajava.javacore.Ztestes.enumeracoes.domain.CpfCnpj;
-import assuncao.bryan.maratonajava.javacore.Ztestes.enumeracoes.domain.Pagamento;
+import assuncao.bryan.maratonajava.javacore.Z_Testes.enumeracoes.domain.Comprador;
+import assuncao.bryan.maratonajava.javacore.Z_Testes.enumeracoes.domain.CpfCnpj;
+import assuncao.bryan.maratonajava.javacore.Z_Testes.enumeracoes.domain.Pagamento;
 
 public class CompradorTest {
     public static void main(String[] args) {

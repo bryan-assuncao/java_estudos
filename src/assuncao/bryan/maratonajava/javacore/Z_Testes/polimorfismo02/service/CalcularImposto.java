@@ -1,7 +1,7 @@
-package assuncao.bryan.maratonajava.javacore.Ztestes.polimorfismo02.service;
+package assuncao.bryan.maratonajava.javacore.Z_Testes.polimorfismo02.service;
 
-import assuncao.bryan.maratonajava.javacore.Ztestes.polimorfismo02.domain.Carnes;
-import assuncao.bryan.maratonajava.javacore.Ztestes.polimorfismo02.domain.Suina;
+import assuncao.bryan.maratonajava.javacore.Z_Testes.polimorfismo02.domain.Carnes;
+import assuncao.bryan.maratonajava.javacore.Z_Testes.polimorfismo02.domain.Suina;
 
 public class CalcularImposto {
 

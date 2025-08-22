@@ -1,9 +1,9 @@
-package assuncao.bryan.maratonajava.javacore.Gassociacao.test;
+package assuncao.bryan.maratonajava.javacore.G_Associacao.test;
 
-import assuncao.bryan.maratonajava.javacore.Gassociacao.domain.Master;
-import assuncao.bryan.maratonajava.javacore.Gassociacao.domain.Place;
-import assuncao.bryan.maratonajava.javacore.Gassociacao.domain.Seminar;
-import assuncao.bryan.maratonajava.javacore.Gassociacao.domain.Student;
+import assuncao.bryan.maratonajava.javacore.G_Associacao.domain.Master;
+import assuncao.bryan.maratonajava.javacore.G_Associacao.domain.Place;
+import assuncao.bryan.maratonajava.javacore.G_Associacao.domain.Seminar;
+import assuncao.bryan.maratonajava.javacore.G_Associacao.domain.Student;
 
 public class AssosiationTest {
     public static void main(String[] args) {

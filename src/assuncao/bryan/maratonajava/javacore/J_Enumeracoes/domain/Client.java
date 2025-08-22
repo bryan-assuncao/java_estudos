@@ -1,4 +1,4 @@
-package assuncao.bryan.maratonajava.javacore.Jenumeracoes.domain;
+package assuncao.bryan.maratonajava.javacore.J_Enumeracoes.domain;
 
 public class Client {
     private String name;

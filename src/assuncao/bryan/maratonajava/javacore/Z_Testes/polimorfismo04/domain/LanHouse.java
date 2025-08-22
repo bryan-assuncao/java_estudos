@@ -1,4 +1,4 @@
-package assuncao.bryan.maratonajava.javacore.Ztestes.polimorfismo04.domain;
+package assuncao.bryan.maratonajava.javacore.Z_Testes.polimorfismo04.domain;
 
 public abstract class LanHouse  implements TaxaPcGamer{
     private final String pc;

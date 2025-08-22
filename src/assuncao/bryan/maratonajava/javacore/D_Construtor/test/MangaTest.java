@@ -1,6 +1,6 @@
-package assuncao.bryan.maratonajava.javacore.Dconstrutor.test;
+package assuncao.bryan.maratonajava.javacore.D_Construtor.test;
 
-import assuncao.bryan.maratonajava.javacore.Dconstrutor.domain.Manga;
+import assuncao.bryan.maratonajava.javacore.D_Construtor.domain.Manga;
 
 public class MangaTest {
     public static void main(String[] args) {

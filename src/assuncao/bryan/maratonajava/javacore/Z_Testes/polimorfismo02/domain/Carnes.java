@@ -1,4 +1,4 @@
-package assuncao.bryan.maratonajava.javacore.Ztestes.polimorfismo02.domain;
+package assuncao.bryan.maratonajava.javacore.Z_Testes.polimorfismo02.domain;
 
 public abstract class Carnes implements Imposto{
     protected String tipo;

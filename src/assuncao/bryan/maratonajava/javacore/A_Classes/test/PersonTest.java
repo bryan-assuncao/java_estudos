@@ -1,6 +1,6 @@
-package assuncao.bryan.maratonajava.javacore.Aclasses.test;
+package assuncao.bryan.maratonajava.javacore.A_Classes.test;
 
-import assuncao.bryan.maratonajava.javacore.Aclasses.domain.Person;
+import assuncao.bryan.maratonajava.javacore.A_Classes.domain.Person;
 
 public class PersonTest {
     public static void main(String[] args) {

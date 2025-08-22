@@ -1,4 +1,4 @@
-package assuncao.bryan.maratonajava.javacore.Mpolimorfismo.domain;
+package assuncao.bryan.maratonajava.javacore.M_Polimorfismo.domain;
 
 public abstract class Product implements Tax {
     protected String name;

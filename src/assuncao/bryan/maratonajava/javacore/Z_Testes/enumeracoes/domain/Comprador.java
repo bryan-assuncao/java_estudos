@@ -1,4 +1,4 @@
-package assuncao.bryan.maratonajava.javacore.Ztestes.enumeracoes.domain;
+package assuncao.bryan.maratonajava.javacore.Z_Testes.enumeracoes.domain;
 
 public class Comprador {
     private String name;

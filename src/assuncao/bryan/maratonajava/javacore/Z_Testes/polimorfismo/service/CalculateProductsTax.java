@@ -1,7 +1,7 @@
-package assuncao.bryan.maratonajava.javacore.Ztestes.polimorfismo.service;
+package assuncao.bryan.maratonajava.javacore.Z_Testes.polimorfismo.service;
 
-import assuncao.bryan.maratonajava.javacore.Ztestes.polimorfismo.domain.Product;
-import assuncao.bryan.maratonajava.javacore.Ztestes.polimorfismo.domain.Tomato;
+import assuncao.bryan.maratonajava.javacore.Z_Testes.polimorfismo.domain.Product;
+import assuncao.bryan.maratonajava.javacore.Z_Testes.polimorfismo.domain.Tomato;
 
 public class CalculateProductsTax {
 
