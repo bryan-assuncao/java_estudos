@@ -1,4 +1,4 @@
-package assuncao.bryan.maratonajava.javacore.Z_Testes.path;
+package assuncao.bryan.maratonajava.javacore.Z_Testes.path.domain.test;
 
 import java.io.IOException;
 import java.nio.file.Files;
