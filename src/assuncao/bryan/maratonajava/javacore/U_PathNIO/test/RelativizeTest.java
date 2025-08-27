@@ -15,10 +15,19 @@ public class RelativizeTest {
         Path absolut02 = Paths.get("usr/local");
         Path absolut03 = Paths.get("home/bryan/dev/arquivo.txt");
 
-        Path reltive01 = Paths.get("temp");
-        Path reltive02 = Paths.get("temp/temp.2015");
+        Path relative01 = Paths.get("temp");
+        Path relative02 = Paths.get("temp/temp.2015");
 
         System.out.println(absolut03.relativize(absolut01));
         System.out.println(absolut01.relativize(absolut02));
+        System.out.println(relative02.relativize(relative01));
     }
 }
+
+
+
+
+
+
+
+
