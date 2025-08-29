@@ -1,11 +1,25 @@
------
+---
 
-#  Repositório de Estudos em Java
+# ☕ Repositório de Estudos em Java
 
-Este é o meu repositório pessoal para documentar minha jornada de aprendizado em Java.
+Este repositório reúne meus **estudos, anotações e experimentos em Java**.
+O objetivo é documentar minha jornada de aprendizado e servir como um registro de evolução.
 
-O conteúdo aqui presente consiste em anotações, testes e códigos experimentais desenvolvidos para fins de estudo. Não há garantia de funcionamento ou de que os códigos estejam otimizados.
+## 📚 Conteúdo
 
-**O propósito deste repositório é estritamente educacional e para meu registro pessoal.**
+* Exemplos de código prático
+* Testes e exercícios
+* Anotações de conceitos importantes
+* Explorações de recursos da linguagem
 
------
+## ⚠️ Aviso
+
+Os códigos aqui não têm a pretensão de serem soluções finais ou otimizadas.
+Servem apenas para **fins educacionais** e como parte do meu processo de aprendizado.
+
+---
+
+✨ *Este é um espaço vivo, em constante atualização conforme avanço nos estudos.*
+
+---
+
