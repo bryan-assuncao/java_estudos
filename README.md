@@ -15,4 +15,4 @@ Servem apenas para **fins educacionais** e como parte do meu processo de aprendi
 
 ---
 
-✨ *Este é um espaço vivo, em constante atualização conforme avanço nos estudos.*  
+*Este é um espaço vivo, em constante atualização conforme avanço nos estudos.*  
