@@ -1,4 +1,4 @@
-package assuncao.bryan.maratonajava.javacore.V_Serialization.domain;
+package assuncao.bryan.maratonajava.javacore.V_Serialization.test.V_Serialization.domain;
 
 import java.io.Serializable;
 

@@ -1,6 +1,6 @@
-package assuncao.bryan.maratonajava.javacore.V_Serialization.test;
+package assuncao.bryan.maratonajava.javacore.V_Serialization.test.V_Serialization.test;
 
-import assuncao.bryan.maratonajava.javacore.V_Serialization.domain.Aluno;
+import assuncao.bryan.maratonajava.javacore.V_Serialization.test.V_Serialization.domain.Aluno;
 
 import java.io.IOException;
 import java.io.ObjectOutputStream;
