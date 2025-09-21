@@ -2,7 +2,7 @@ package assuncao.bryan.maratonajava.javacore.W_Colecoes.domain;
 
 import java.util.Objects;
 
-public class Mangas {
+public class Mangas implements Comparable<Mangas> {
     private Long id;
     private String name;
     private double preco;
@@ -13,6 +13,11 @@ public class Mangas {
         this.id = id;
         this.name = name;
         this.preco = preco;
+    }
+
+    @Override
+    public int compareTo(Mangas outroManga) {
+        return this.id.compareTo(outroManga.getId());
     }
 
     @Override
@@ -59,4 +64,6 @@ public class Mangas {
     public void setPreco(double preco) {
         this.preco = preco;
     }
+
+
 }
