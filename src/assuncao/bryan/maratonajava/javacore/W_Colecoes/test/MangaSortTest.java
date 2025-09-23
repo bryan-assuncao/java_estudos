@@ -4,7 +4,15 @@ import assuncao.bryan.maratonajava.javacore.W_Colecoes.domain.Mangas;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
+
+class MangaByIdComparator implements Comparator<Mangas>{
+    @Override
+    public int compare(Mangas manga1, Mangas manga2) {
+        return manga1.getId().compareTo(manga2.getId());
+    }
+}
 
 public class MangaSortTest {
     public static void main(String[] args) {
@@ -20,7 +28,10 @@ public class MangaSortTest {
         System.out.println("----------------");
 
         Collections.sort(mangas);
+        System.out.println(mangas);
 
+        System.out.println("----------------");
+        Collections.sort(mangas, new MangaByIdComparator());
         System.out.println(mangas);
     }
 }
