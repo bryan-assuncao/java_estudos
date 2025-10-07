@@ -1,5 +1,8 @@
 package assuncao.bryan.maratonajava.javacore.Z_Generics.test;
 
+import java.util.ArrayList;
+import java.util.List;
+
 abstract class Animal{
     public abstract void consulta();
 }
@@ -23,11 +26,17 @@ public class WildcardTest {
         Gato[] gato = {new Gato(), new Gato()};
         printConsulta(cachorro);
         printConsulta(gato);
+        List<Animal> animals = new ArrayList<>();
+        printConsultaAnimal(animals);
+        printConsultaAnimal(List.of(cachorro));
     }
     private static void printConsulta(Animal[] animals){
         for (Animal animal : animals) {
             animal.consulta();
         }
-
+    }
+    private static void printConsultaAnimal(List<? super Animal> animals){
+        animals.add(new Cachorro());
+        animals.add(new Gato());
     }
 }
