@@ -1,4 +1,4 @@
-package assuncao.bryan.maratonajava.javacore.ZZ_A_Classes_Internas;
+package assuncao.bryan.maratonajava.javacore.ZZ_A_Classes_Internas.test;
 
 class Animal{
     public void walk(){
